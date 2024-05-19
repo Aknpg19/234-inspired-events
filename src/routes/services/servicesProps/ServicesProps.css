@@ -1,0 +1,65 @@
+.props_card {
+  text-align: center;
+  background-color: #fff;
+  padding: 15px 12px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px -1px rgba(0, 0, 0, 0.2);
+}
+
+.props_card img {
+  width: 420px;
+}
+
+.props_card h3 {
+  font-weight: 700;
+  font-size: 24px;
+  margin: 12px 0px;
+  font-weight: 700;
+}
+
+.props_card p {
+  margin: 10px 0px;
+  font-weight: 500;
+}
+
+.props_card button {
+  background-color: #008000;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 7px 18px;
+  font-weight: 500;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 320px) {
+  .props_card {
+    padding-bottom: 10px;
+  }
+
+  .props_card img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .props_card img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .props_card {
+    width: 94%;
+    margin-left: 10px;
+    box-shadow: 0px 0px 8px -1px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media (min-width: 1280px) {
+  .props_card img {
+    width: 420px;
+  }
+}
